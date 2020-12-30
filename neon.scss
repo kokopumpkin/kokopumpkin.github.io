@@ -22,21 +22,21 @@ $enable-print-styles:       true;
 // Colors
 
 $theme-colors: (
-  primary: #292735,
+  primary: #f1cd31,
   secondary: #f70655,
-  light: #292735,
-  dark: #e7790c,
+  light: #f3f3f3,
+  dark: #303030,
   info: #009ac0,
   success: #28a745,
   warning: #ffc107,
   danger: #dc3545
 );
 
-$body-bg: #e7790c;
+$body-bg: #111;
 
-$body-color: #292735;
+$body-color: #efefef;
 $body-color-inverse: invert($body-color) !default;
-$link-color: #292735;
+$link-color: #f1cd31;
 
 $link-hover-color:      white;
 $link-hover-decoration: none;
@@ -122,7 +122,6 @@ $table-hover-bg:                				rgba(map-get($theme-colors,"light"),.1);
 $table-border-color:            				map-get($theme-colors,"dark");
 
 $font-size-base: 0.85rem;
-$enable-responsive-font-sizes: false;
 
 
 
@@ -195,6 +194,7 @@ html,body {
 }
 
 .shadowed {
+  box-shadow: 0px 0px 10px #000;
 }
 
 .carousel {
